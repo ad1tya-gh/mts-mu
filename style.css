@@ -1,0 +1,20 @@
+nav {
+  background-image: linear-gradient(to right, hsl(103, 100%, 88%), #50ea3c);
+}
+
+.jumbotron {
+  background-image: url(img/banner-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.jumbotron h1 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
