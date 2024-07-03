@@ -1,5 +1,16 @@
 nav {
-  background-image: linear-gradient(to right, hsl(103, 100%, 88%), #50ea3c);
+  background-image: linear-gradient(to right, #49ca38, #00912c);
+  /* background-image: linear-gradient(to right, hsl(103, 100%, 88%), #50ea3c); */
+}
+
+nav .container-fluid a {
+  color: #ffff;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+nav .container-fluid div.navbar-collapse a.nav-link {
+  color: #ffff;
 }
 
 .jumbotron {
@@ -7,8 +18,8 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  padding-top: 6rem;
-  padding-bottom: 5rem;
+  padding-top: 9rem;
+  /* padding-bottom: 5rem; */
   background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -17,4 +28,22 @@ nav {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
+}
+
+.col h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+section#Ekstrakulikuler {
+  background-color: #ffff;
+}
+
+section#PPDB {
+  background-color: #49ca38;
 }
